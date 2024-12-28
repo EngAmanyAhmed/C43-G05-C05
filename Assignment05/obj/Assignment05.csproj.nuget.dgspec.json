@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj": {}
+    "C:\\Users\\Eng Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj": {
+    "C:\\Users\\Eng Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj",
+        "projectUniqueName": "C:\\Users\\Eng Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj",
         "projectName": "Assignment05",
-        "projectPath": "C:\\Users\\Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj",
-        "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amany\\source\\repos\\C43-G05-C05\\Assignment05\\obj\\",
+        "projectPath": "C:\\Users\\Eng Amany\\source\\repos\\C43-G05-C05\\Assignment05\\Assignment05.csproj",
+        "packagesPath": "C:\\Users\\Eng Amany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eng Amany\\source\\repos\\C43-G05-C05\\Assignment05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eng Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
