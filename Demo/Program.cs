@@ -1,9 +1,52 @@
 ﻿using System.Security.AccessControl;
-using Common;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Demo
 {
+    // Byte : 0 -> 255
+    enum Season : byte
+    {
+        Spring = 10,
+        Winter,
+        Summer,
+        Autumn
+    }
+
+    enum Weekday
+    {
+        Saturday,
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday
+    }
+
+    enum Gender
+    {
+        M = 1,
+        F = 2,
+        Male = 1,
+        Female = 2
+    }
+
+
+    // Read, Write, Execute, Delete
+
+    [Flags]
+
+    enum Permissions
+    {
+        Read = 8,
+        Write = 4,
+        Execute = 2,
+        Delete = 1
+    }
+
+
+
+
     internal class Program
     {
 
@@ -299,20 +342,78 @@ namespace Demo
             #endregion
 
             #region Access Modifiers
-
             // Class Librarry
 
             // Common.TypeA typeA = new Common.TypeA(); // invalied TypeA is Invalied
 
-            // Common.TypeB typeB = new Common.TypeB(); // TypeB is Public
-
-            //typeB.X = 12; // invalid private
-            //TypeB.Y = 12; // Invalid internal
-
-            //TypeB.Z = 12; // valid public 
+            // Common.TypeB typeB = new Common.TypeB(); // TypeB is Public 
             #endregion
 
+            #region Enum
 
+            // Enum : Value Types
+            // STAK
+
+            // int Number = 10;
+
+            //Season S01 = Season.Autumn;
+
+            //S01 = Season.Summer;
+
+            //Console.WriteLine(S01);
+
+            //Season S02 = Season.Spring;
+
+            //Console.WriteLine(S02);
+
+            //Console.WriteLine((int) S02);
+
+            // Stack
+
+            // CLR Represent Enum As Integer Value In Memory
+
+
+            //Gender G01 = (Gender)1;
+
+            //Console.WriteLine(G01);
+
+
+            //Gender G01 = (Gender) Enum.Parse(typeof(Gender) ,value: Console.ReadLine(), ignoreCase:true);
+
+            //Gender G01;
+            //Enum.TryParse(typeof(Gender), value: Console.ReadLine(), ignoreCase: true, out object 01);
+
+            //G01 = (Gender)01;
+
+            //Console.WriteLine(G01);
+
+
+            //Permissions Pere1 Permissions.Read;
+            //Per01 Permissions. Delete; // Toggle
+
+
+            //Per01 | Permissions.Delete; // Add Permession
+
+            //Console.WriteLine(Per01); // Delete, Read
+            //Per01 Permissions. Delete; // Toggle
+
+            //Console.WriteLine(Perol); // Read
+            //Console.WriteLine(Per01); // Delete, Read
+
+
+            // Per01 &= ~(Permissions.Delete); // ~ Not Bitwise
+
+            // // & -> Check Perissions
+
+            // if (Per01&Permissions. Delete) == Permissions. Delete)
+            // {
+            //    Console.WriteLine("Exists");
+            // }
+            // else
+            // {
+            //   Console.WriteLine("Not Exists");
+            // } 
+            #endregion
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Amany\source\repos\C43-G05-C05\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\Amany\source\repos\C43-G05-C05\Common\bin\Debug\net8.0\Common.dll
+C:\Users\Amany\source\repos\C43-G05-C05\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.dll
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\Amany\source\repos\C43-G05-C05\Common\obj\Debug\net8.0\ref\Common.dll
